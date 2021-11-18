@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- ## font for logo ## -->
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="payment_gateway.css">
+    <title>Maharashtra Resto Payment Gateway</title>
+</head>
+<body>
+    <div class="background">
+        <h1 class="payhere">RestoPay</h1> 
+    <div class="container">
+        <h2 class="heading">Payment</h2>
+        <div class="first_row">
+            <div class="owner">
+                <h3>Name</h3>
+                <div class="input_field" id="input_field_owner">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="owner">
+                <h3>CVV</h3>
+                <div class="input_field">
+                    <input type="password">
+                </div>
+            </div>
+        </div>
+        <div class="second_row">
+            <div class="card_number">
+                <h3>Card Number</h3>
+                <div class="input_field">
+                    <input type="text">
+                </div>
+            </div>    
+        </div>
+        <div class="third_row">
+                <h3>Valid Till</h3> 
+                <div class="selection">
+                    <div class="date">
+                        <select name="months" id="months" >
+                            <option value="Jan">Jan</option>
+                            <option value="feb">Feb</option>
+                            <option value="march">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="Sept">Sept</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                        </select>
+                        <select name="years" id="years">
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                        </select>
+                    </div>
+                    <div class="cards">
+                        <img src="https://dvh1deh6tagwk.cloudfront.net/niche-builder/5e84139c939c0.png" alt="">
+                        <img src="https://i.ytimg.com/vi/x-tiXLDdvQg/maxresdefault.jpg" alt="">
+                        <img src="http://images.indianexpress.com/2017/02/paytm-logo-759.jpg?w=759" alt="">
+                    </div>
+                </div> 
+        </div>
+        <a class="btn" href="" onclick="validate()">Confirm Payment</a>
+    </div>    
+</div>
+</body>
+<script>
+    function validate(){
+        alert("Payment Successful");
+    }
+</script>
+</html>

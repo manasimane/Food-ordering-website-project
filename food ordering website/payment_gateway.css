@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container{
+    border: 2px solid rgb(199, 198, 198);
+    height: 540px;
+    width:626px ;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: rgba(150, 150, 150, 0.918);
+    margin-top: -50px;
+    margin-left: 804px;
+}
+
+container h3{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.cards{
+    width: 316px;
+}
+
+.cards img{
+    width: 100px;
+    object-fit: cover;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.first_row{
+    display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input_field{
+    border: 2px solid rgb(146, 146, 146);
+    background-color: white;
+}
+
+.input_field input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+#input_field_owner{
+    width: 333px;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+a{
+    background-color: rgba(245, 81, 16, 0.904);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0px 13px 0px;
+    margin-top: 27px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+a:hover{
+    background-color: green;
+    color: white;
+}
+
+.background{
+     height: 100vh;
+     background: url("https://wallup.net/wp-content/uploads/2017/03/29/490310-Fries-tomatoes-food.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 1545px;
+}
+
+.background h1{
+    color: white;
+    text-align: center;
+    padding-left: 730px;
+    font-size: 6rem;
+    font-family: 'Irish Grover', cursive;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #1c994c;
+    color: rgb(255, 253, 253);
+    width: 264px;
+    margin: auto;
+  }
+  
+  .btn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 1s;
+  }
